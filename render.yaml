@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: student-performance-api
+    env: python
+    buildCommand: ""
+    startCommand: gunicorn app:app
+    envVars:
+      - key: GOOGLE_APPLICATION_CREDENTIALS
+        value: firebase_key.json

@@ -1,0 +1,6 @@
+Flask
+firebase-admin
+scikit-learn
+pandas
+numpy
+gunicorn
